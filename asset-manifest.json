@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/amdad-orangetoolz/earn5star-social-auth/static/css/main.7f5dd30d.chunk.css",
-    "main.js": "/amdad-orangetoolz/earn5star-social-auth/static/js/main.7e1d0ef2.chunk.js",
-    "main.js.map": "/amdad-orangetoolz/earn5star-social-auth/static/js/main.7e1d0ef2.chunk.js.map",
-    "runtime-main.js": "/amdad-orangetoolz/earn5star-social-auth/static/js/runtime-main.19163a3d.js",
-    "runtime-main.js.map": "/amdad-orangetoolz/earn5star-social-auth/static/js/runtime-main.19163a3d.js.map",
-    "static/js/2.8c069f96.chunk.js": "/amdad-orangetoolz/earn5star-social-auth/static/js/2.8c069f96.chunk.js",
-    "static/js/2.8c069f96.chunk.js.map": "/amdad-orangetoolz/earn5star-social-auth/static/js/2.8c069f96.chunk.js.map",
-    "static/js/3.d73c54d5.chunk.js": "/amdad-orangetoolz/earn5star-social-auth/static/js/3.d73c54d5.chunk.js",
-    "static/js/3.d73c54d5.chunk.js.map": "/amdad-orangetoolz/earn5star-social-auth/static/js/3.d73c54d5.chunk.js.map",
-    "index.html": "/amdad-orangetoolz/earn5star-social-auth/index.html",
-    "static/css/main.7f5dd30d.chunk.css.map": "/amdad-orangetoolz/earn5star-social-auth/static/css/main.7f5dd30d.chunk.css.map",
-    "static/js/2.8c069f96.chunk.js.LICENSE.txt": "/amdad-orangetoolz/earn5star-social-auth/static/js/2.8c069f96.chunk.js.LICENSE.txt",
-    "static/media/pinterest.52e3f96a.svg": "/amdad-orangetoolz/earn5star-social-auth/static/media/pinterest.52e3f96a.svg"
+    "main.css": "/earn5star-social-auth/static/css/main.7f5dd30d.chunk.css",
+    "main.js": "/earn5star-social-auth/static/js/main.7e1d0ef2.chunk.js",
+    "main.js.map": "/earn5star-social-auth/static/js/main.7e1d0ef2.chunk.js.map",
+    "runtime-main.js": "/earn5star-social-auth/static/js/runtime-main.d8f859b0.js",
+    "runtime-main.js.map": "/earn5star-social-auth/static/js/runtime-main.d8f859b0.js.map",
+    "static/js/2.8c069f96.chunk.js": "/earn5star-social-auth/static/js/2.8c069f96.chunk.js",
+    "static/js/2.8c069f96.chunk.js.map": "/earn5star-social-auth/static/js/2.8c069f96.chunk.js.map",
+    "static/js/3.d73c54d5.chunk.js": "/earn5star-social-auth/static/js/3.d73c54d5.chunk.js",
+    "static/js/3.d73c54d5.chunk.js.map": "/earn5star-social-auth/static/js/3.d73c54d5.chunk.js.map",
+    "index.html": "/earn5star-social-auth/index.html",
+    "static/css/main.7f5dd30d.chunk.css.map": "/earn5star-social-auth/static/css/main.7f5dd30d.chunk.css.map",
+    "static/js/2.8c069f96.chunk.js.LICENSE.txt": "/earn5star-social-auth/static/js/2.8c069f96.chunk.js.LICENSE.txt",
+    "static/media/pinterest.52e3f96a.svg": "/earn5star-social-auth/static/media/pinterest.52e3f96a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.19163a3d.js",
+    "static/js/runtime-main.d8f859b0.js",
     "static/js/2.8c069f96.chunk.js",
     "static/css/main.7f5dd30d.chunk.css",
     "static/js/main.7e1d0ef2.chunk.js"
