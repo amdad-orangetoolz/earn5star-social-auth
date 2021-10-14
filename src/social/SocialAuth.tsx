@@ -1,6 +1,6 @@
 import React, { useCallback, useRef, useState } from 'react'
 import './app.css'
-// import { User } from './User'
+//import { User } from './User'
 import {
   LoginSocialGoogle,
   LoginSocialAmazon,
@@ -95,13 +95,17 @@ const SocialAuth = () => {
 
   return (
     <>
-      {/* {provider && profile && (
-        <User 
-          provider = {provider} 
-          profile = {profile} 
-          onLogout = {onLogout} 
-        />
-      )} */}
+      {provider && profile && (
+        // <User 
+        //   provider = {provider} 
+        //   profile = {profile} 
+        //   onLogout = {onLogout} 
+        // />
+        <div>
+          <p>{provider}</p>
+          <p>{profile}</p>
+        </div>
+      )}
       <div className={`App ${provider && profile ? 'hide' : ''}`}>
         <h1 className='title'>ReactJS Social Login</h1>
         

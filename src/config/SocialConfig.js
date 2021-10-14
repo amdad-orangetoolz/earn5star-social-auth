@@ -25,7 +25,7 @@ const SocialConfig = {
     GITHUB_APP_SECRET : "10d8bca30c6570f46ee44f334c08614c795f8d93",
 
     //pinterest
-    PINTEREST_APP_ID : "",
+    PINTEREST_APP_ID : "1473268",
     PINTEREST_APP_SECRET : "",
 
     //twitter
