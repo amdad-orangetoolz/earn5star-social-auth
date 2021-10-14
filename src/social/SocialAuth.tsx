@@ -95,17 +95,13 @@ const SocialAuth = () => {
 
   return (
     <>
-      {provider && profile && (
-        // <User 
-        //   provider = {provider} 
-        //   profile = {profile} 
-        //   onLogout = {onLogout} 
-        // />
-        <div>
-          <p>{provider}</p>
-          <p>{JSON.stringify(profile)}</p>
-        </div>
-      )}
+      {/* {provider && profile && (
+        <User 
+          provider = {provider} 
+          profile = {profile} 
+          onLogout = {onLogout} 
+        />
+      )} */}
       <div className={`App ${provider && profile ? 'hide' : ''}`}>
         <h1 className='title'>ReactJS Social Login</h1>
         
@@ -117,7 +113,7 @@ const SocialAuth = () => {
           onResolve = {({ provider, data }: IResolveParams) => {
             
             console.log('provider'+ provider);
-            console.log('data'+ data);
+            console.log(JSON.stringify(data));
 
             setProvider(provider)
             setProfile(data)
