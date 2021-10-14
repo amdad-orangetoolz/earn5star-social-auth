@@ -103,7 +103,7 @@ const SocialAuth = () => {
         // />
         <div>
           <p>{provider}</p>
-          <p>{profile}</p>
+          <p>{JSON.stringify(profile)}</p>
         </div>
       )}
       <div className={`App ${provider && profile ? 'hide' : ''}`}>
