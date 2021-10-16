@@ -1,6 +1,6 @@
 import React, { useCallback, useRef, useState } from 'react'
 import './app.css'
-//import { User } from './User'
+import {User} from './User'
 import {
   LoginSocialGoogle,
   LoginSocialAmazon,
@@ -33,7 +33,6 @@ import Config from '../config/Config';
 const REDIRECT_URI = Config.SOCIAL_REDIRECT_URI_LOCAL;
 const SocialAuth = () => {
   const [provider, setProvider] = useState('')
- // const [profile, setProfile] = useState()
   const [profile, setProfile] = useState<any>()
   const amazonRef = useRef<TypeCrossFunction>(null!)
   const instagramRef = useRef<TypeCrossFunction>(null!)
@@ -95,13 +94,13 @@ const SocialAuth = () => {
 
   return (
     <>
-      {/* {provider && profile && (
+      {provider && profile && (
         <User 
           provider = {provider} 
           profile = {profile} 
           onLogout = {onLogout} 
         />
-      )} */}
+      )}
       <div className={`App ${provider && profile ? 'hide' : ''}`}>
         <h1 className='title'>ReactJS Social Login</h1>
         
