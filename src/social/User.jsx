@@ -88,13 +88,15 @@ export class User extends Component {
     render(){
         const { provider, profile } = this.props;
         return (
-           <div>
-            {Object.keys(profile).map((key, i) => {
-                <p key={i}>
-                <span>{key}</span>
-                <span>{profile[key]}</span>
-                </p>
-            })}
+           <div class="card">
+                {Object.keys(profile).map((key, i) => {
+                    <p key={i}>
+                    <div class="field">
+                        <div class="label">{key}</div>
+                        <div class="value">{profile[key]}</div>
+                    </div>
+                    </p>
+                })}
            </div>
        )
     
