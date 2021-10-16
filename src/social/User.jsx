@@ -39,7 +39,7 @@ export class User extends Component {
                         </div>
                     })}
 
-                        {/* <div class="field">
+                        <div class="field">
                             <div class="label">accessToken: </div>
                             <div class="value">"EAAdpchms5TwBAEX6E6ZC7yBLy1QlAHF4s2KEvKECfLsTI60vo03kLqSsLdXsPlhjVWqN2IfKdP2NGJnoZBcC5KNY5jgWSjdBG7yX4bmBqUeBC9Ggcx5qbCyTc2ZByfwRkIKr2VNr8ID3nfyKcqyudgeYfCxK9ZB9rWztfTpev34hv6uG9ayKEtXON5maFAWUu5TZAk9JuT0UGsGZAEqbiRKmAVZCmfXCtoZD"</div>
                             </div>
@@ -87,18 +87,17 @@ export class User extends Component {
                             <div class="label">name_format: </div>
                             <div class="value">"{"first"} {"last"}"</div>
                         </div>
-                        <div class="field">
+                        {/* <div class="field">
                             <div class="label">picture: </div>
                             <div class="value">{"data":{"height":50,"is_silhouette":false,"url":"https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=4383791891707983&amp;height=50&amp;width=50&amp;ext=1636983621&amp;hash=AeSlbB-lvRiW8SBjjlo"}}</div>
-                        </div>
+                        </div> */}
                         <div class="field">
                             <div class="label">short_name: </div>
                             <div class="value">"Amdad"</div>
                         </div>
-                        </div><button class="btnLogout">Logout</button></div> */}
+                        </div><button class="btnLogout">Logout</button></div>
                     </div>
-                    </div>
-                    </div>
+                    
         );
     }
 
