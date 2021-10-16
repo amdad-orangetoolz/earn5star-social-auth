@@ -69,7 +69,7 @@ export class User extends Component {
                         </div>
                         <div class="field">
                             <div class="label">name_format: </div>
-                            <div class="value">"{first} {last}"</div>
+                            <div class="value">"{"first"} {"last"}"</div>
                         </div>
                         {/* <div class="field">
                             <div class="label">picture: </div>
