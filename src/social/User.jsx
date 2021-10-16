@@ -9,7 +9,7 @@ export class User extends Component {
 
     render() {
         const { provider, profile } = this.props;
-        console.log(profile);
+        console.log(JSON.stringify(profile));
         var data =  {
             "name": "Pluralsight",
             "number": 1,
