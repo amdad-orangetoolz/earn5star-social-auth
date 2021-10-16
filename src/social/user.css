@@ -47,6 +47,7 @@ html {
 	left: 2px;
 	background: #000;
 	z-index: -1;
+    display: none !important;
 }
 
 .App::after {
@@ -72,6 +73,7 @@ html {
 		#b2f4b6 123.24%
 	);
 	transition: opacity 0.3s ease-in-out;
+    display: none !important;
 }
 
 .App:hover:after {
