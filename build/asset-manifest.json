@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/earn5star-social-auth/static/css/main.b90b8d08.chunk.css",
+    "main.css": "/earn5star-social-auth/static/css/main.f8a80bf5.chunk.css",
     "main.js": "/earn5star-social-auth/static/js/main.7267869a.chunk.js",
     "main.js.map": "/earn5star-social-auth/static/js/main.7267869a.chunk.js.map",
     "runtime-main.js": "/earn5star-social-auth/static/js/runtime-main.dcac65be.js",
@@ -10,14 +10,14 @@
     "static/js/3.78473fad.chunk.js": "/earn5star-social-auth/static/js/3.78473fad.chunk.js",
     "static/js/3.78473fad.chunk.js.map": "/earn5star-social-auth/static/js/3.78473fad.chunk.js.map",
     "index.html": "/earn5star-social-auth/index.html",
-    "static/css/main.b90b8d08.chunk.css.map": "/earn5star-social-auth/static/css/main.b90b8d08.chunk.css.map",
+    "static/css/main.f8a80bf5.chunk.css.map": "/earn5star-social-auth/static/css/main.f8a80bf5.chunk.css.map",
     "static/js/2.df354156.chunk.js.LICENSE.txt": "/earn5star-social-auth/static/js/2.df354156.chunk.js.LICENSE.txt",
     "static/media/pinterest.52e3f96a.svg": "/earn5star-social-auth/static/media/pinterest.52e3f96a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.dcac65be.js",
     "static/js/2.df354156.chunk.js",
-    "static/css/main.b90b8d08.chunk.css",
+    "static/css/main.f8a80bf5.chunk.css",
     "static/js/main.7267869a.chunk.js"
   ]
 }
