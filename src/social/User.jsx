@@ -9,6 +9,13 @@ export class User extends Component {
 
     render() {
         const { provider, profile } = this.props;
+        console.log(profile);
+        var profile =  {
+            "name": "Pluralsight",
+            "number": 1,
+            "address": "India",
+            "website": "https://www.pluralsight.com/"
+          }
         return (
             <div class="card">
                 <div class="avt">
