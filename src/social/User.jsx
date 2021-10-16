@@ -3,8 +3,8 @@ import './user.css';
 
 export class User extends Component {
 
-    constructor(props) {
-        super(props);
+    constructor(props, context) {
+        super(props, context);
     }
 
     render() {
@@ -102,25 +102,25 @@ export class User extends Component {
         );
     }
 
-    render(){
-        const { provider, profile } = this.props;
-        return (
-           <div class="card">
-                <div class="content">
-                    <div class="data">
-                {Object.keys(profile).map((key, i) => {
-                    <p key={i}>
-                    <div class="field">
-                        <div class="label">{key}</div>
-                        <div class="value">{profile[key]}</div>
-                    </div>
-                    </p>
-                })}
-                </div>
-                </div>
-           </div>
-       )
+    // render(){
+    //     const { provider, profile } = this.props;
+    //     return (
+    //        <div class="card">
+    //             <div class="content">
+    //                 <div class="data">
+    //             {Object.keys(profile).map((key, i) => {
+    //                 <p key={i}>
+    //                 <div class="field">
+    //                     <div class="label">{key}</div>
+    //                     <div class="value">{profile[key]}</div>
+    //                 </div>
+    //                 </p>
+    //             })}
+    //             </div>
+    //             </div>
+    //        </div>
+    //    )
     
-    }
+    // }
     
 }
