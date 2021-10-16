@@ -10,7 +10,7 @@ export class User extends Component {
     render() {
         const { provider, profile } = this.props;
         console.log(profile);
-        var profile =  {
+        var data =  {
             "name": "Pluralsight",
             "number": 1,
             "address": "India",
@@ -32,10 +32,10 @@ export class User extends Component {
                 <div class="content">
                     <div class="data">
 
-                    {Object.keys(profile).map((key, i) => {
+                    {Object.keys(data).map((key, i) => {
                         <div class="field" key={i}>
                             <div class="label">{key}</div>
-                            <div class="value">{profile[key]}</div>
+                            <div class="value">{data[key]}</div>
                         </div>
                     })}
 
