@@ -89,6 +89,8 @@ export class User extends Component {
         const { provider, profile } = this.props;
         return (
            <div class="card">
+                <div class="content">
+                    <div class="data">
                 {Object.keys(profile).map((key, i) => {
                     <p key={i}>
                     <div class="field">
@@ -97,6 +99,8 @@ export class User extends Component {
                     </div>
                     </p>
                 })}
+                </div>
+                </div>
            </div>
        )
     
