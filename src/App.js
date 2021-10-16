@@ -3,10 +3,8 @@ import SocialAuth from './social/SocialAuth';
 
 function App() {
   return (
-    // <div className="App">
-      <div>
-         <SocialAuth/>
-       {/* </div> */}
+    <div>
+      <SocialAuth/>
     </div>
   );
 }

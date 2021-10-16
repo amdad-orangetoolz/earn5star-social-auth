@@ -9,6 +9,12 @@ export class User extends Component {
 
     render() {
         const { provider, profile } = this.props;
+        const data = JSON.parse(profile);
+        for (const key in data){
+            if(obj.hasOwnProperty(key)){
+              console.log(`${key} : ${res[key]}`)
+            }
+          }
         return (
             <div class="card">
                 <div class="avt">
@@ -21,6 +27,7 @@ export class User extends Component {
                         hash=AeSlbB-lvRiW8SBjjlo"/>
                 </div>
                 <h3 class="provider">FACEBOOK</h3>
+                
                 <div class="content">
                     <div class="data">
                         <div class="field">
