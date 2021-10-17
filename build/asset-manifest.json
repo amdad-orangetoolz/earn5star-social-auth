@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/earn5star-social-auth/static/css/main.b5663522.chunk.css",
-    "main.js": "/earn5star-social-auth/static/js/main.d4e5ab00.chunk.js",
-    "main.js.map": "/earn5star-social-auth/static/js/main.d4e5ab00.chunk.js.map",
+    "main.js": "/earn5star-social-auth/static/js/main.19e5f305.chunk.js",
+    "main.js.map": "/earn5star-social-auth/static/js/main.19e5f305.chunk.js.map",
     "runtime-main.js": "/earn5star-social-auth/static/js/runtime-main.dcac65be.js",
     "runtime-main.js.map": "/earn5star-social-auth/static/js/runtime-main.dcac65be.js.map",
     "static/js/2.df354156.chunk.js": "/earn5star-social-auth/static/js/2.df354156.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.dcac65be.js",
     "static/js/2.df354156.chunk.js",
     "static/css/main.b5663522.chunk.css",
-    "static/js/main.d4e5ab00.chunk.js"
+    "static/js/main.19e5f305.chunk.js"
   ]
 }

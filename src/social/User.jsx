@@ -9,13 +9,7 @@ export class User extends Component {
 
     render() {
         const { provider, profile } = this.props;
-        console.log(JSON.stringify(profile));
-        var data =  {
-            "name": "Pluralsight",
-            "number": 1,
-            "address": "India",
-            "website": "https://www.pluralsight.com/"
-          }
+
         return (
             <div class="card">
                 <div class="avt">
@@ -27,17 +21,22 @@ export class User extends Component {
                         ext="1636983621"
                         hash="AeSlbB-lvRiW8SBjjlo"/>
                 </div>
-                <h3 class="provider">{provider}</h3>
+                <h3 class="provider">{provider.toUpperCase()}</h3>
                 
                 <div class="content">
                     <div class="data">
-
-                    {Object.keys(data).map((key, i) => {
+                    <div>
+                    {
+                        Object.keys(profile).map((key, i) => {
+                        return(
                         <div class="field" key={i}>
                             <div class="label">{key}</div>
-                            <div class="value">{data[key]}</div>
+                            <div class="value">{profile[key]}</div>
                         </div>
-                    })}
+                        )
+                        })
+                    }
+                    </div>
 
                         <div class="field">
                             <div class="label">accessToken: </div>
@@ -87,10 +86,6 @@ export class User extends Component {
                             <div class="label">name_format: </div>
                             <div class="value">"{"first"} {"last"}"</div>
                         </div>
-                        {/* <div class="field">
-                            <div class="label">picture: </div>
-                            <div class="value">{"data":{"height":50,"is_silhouette":false,"url":"https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=4383791891707983&amp;height=50&amp;width=50&amp;ext=1636983621&amp;hash=AeSlbB-lvRiW8SBjjlo"}}</div>
-                        </div> */}
                         <div class="field">
                             <div class="label">short_name: </div>
                             <div class="value">"Amdad"</div>
@@ -100,26 +95,4 @@ export class User extends Component {
                     
         );
     }
-
-    // render(){
-    //     const { provider, profile } = this.props;
-    //     return (
-    //        <div class="card">
-    //             <div class="content">
-    //                 <div class="data">
-    //             {Object.keys(profile).map((key, i) => {
-    //                 <p key={i}>
-    //                 <div class="field">
-    //                     <div class="label">{key}</div>
-    //                     <div class="value">{profile[key]}</div>
-    //                 </div>
-    //                 </p>
-    //             })}
-    //             </div>
-    //             </div>
-    //        </div>
-    //    )
-    
-    // }
-    
 }
