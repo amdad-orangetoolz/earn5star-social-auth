@@ -14,12 +14,12 @@ export class User extends Component {
             <div class="card">
             {
                 Object.keys(profile).map((key, i) => {
-                return(
+                
                 <p key={i}>
                     <span>{key}</span>
                     <span> {profile[key]}</span>
                 </p>
-                )
+                
                 })
             }
             </div>
