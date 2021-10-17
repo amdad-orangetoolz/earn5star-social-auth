@@ -7,6 +7,24 @@ export class User extends Component {
         super(props, context);
     }
 
+    renderRepsonseData = (response)=>{
+        return(
+            <div>
+                {
+                Object.keys(response).map((key, i) => {
+                    return(
+                        <div class="field" key={i}>
+                            <div class="label">{key}</div>
+                            <div class="value">{response[key]}</div>
+                        </div>
+                    )
+                })
+            }
+            </div>
+        )
+        
+    }
+
     render() {
         const { provider, profile } = this.props;
 
@@ -27,14 +45,7 @@ export class User extends Component {
                     <div class="data">
                     <div>
                     {
-                        Object.keys(profile).map((key, i) => {
-                        return(
-                        <div class="field" key={i}>
-                            <div class="label">{key}</div>
-                            <div class="value">{profile[key]}</div>
-                        </div>
-                        )
-                        })
+                        this.renderRepsonseData(profile)
                     }
                     </div>
 
