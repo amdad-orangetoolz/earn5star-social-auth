@@ -7,7 +7,7 @@ const SocialConfig = {
     GOOGLE_APP_ID: "421173343253-0m9l7aldoegd7dhdv793nbhth1c0mch0.apps.googleusercontent.com",
 
     //amazon
-    AMAZON_APP_ID: "amzn1.devportal.webapp.f8ab84d7fb5f47cd8bc30337a33d5158",
+    AMAZON_APP_ID: "amzn1.application-oa2-client.69c5c85afd9a49dc9e9822be3b2d2063",
 
     //instagram
     INSTAGRAM_APP_ID: "1048843902559376",
