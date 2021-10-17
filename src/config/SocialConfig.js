@@ -29,10 +29,10 @@ const SocialConfig = {
     PINTEREST_APP_SECRET : "e273f47a295593afbe43f709d31b71690363380b",
 
     //twitter
-    TWITTER_APP_ID : "",
+    TWITTER_APP_ID : "22223715",
     TWITTER_API_KEY : "09CiRZFUQbXADxZG6hrvQbvOS",
     TWITTER_APP_SECRET : "TSOKBrBxokk1nxCg8fZKqLPDRuMaFgxbFapcxZMV8YQGDnPIGq",
-    TWITTER_TOKEN : "",
+    TWITTER_TOKEN : "AAAAAAAAAAAAAAAAAAAAAGMbUwEAAAAAC7G7A4u8pSPe2XQJ%2BMfgs3p1DPc%3DHQxkdyV8oePZluNv0jhiihqlmzZeTMuXptkInUxowXlvxtfoDV",
 
 }
 export default SocialConfig;
