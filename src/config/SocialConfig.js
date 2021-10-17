@@ -30,8 +30,8 @@ const SocialConfig = {
 
     //twitter
     TWITTER_APP_ID : "",
-    TWITTER_API_KEY : "",
-    TWITTER_APP_SECRET : "",
+    TWITTER_API_KEY : "09CiRZFUQbXADxZG6hrvQbvOS",
+    TWITTER_APP_SECRET : "TSOKBrBxokk1nxCg8fZKqLPDRuMaFgxbFapcxZMV8YQGDnPIGq",
     TWITTER_TOKEN : "",
 
 }
