@@ -43,11 +43,11 @@ export class User extends Component {
                 
                 <div class="content">
                     <div class="data">
-                    <div>
+                    {/* <div>
                     {
                         this.renderRepsonseData(profile)
                     }
-                    </div>
+                    </div> */}
 
                         <div class="field">
                             <div class="label">accessToken: </div>
