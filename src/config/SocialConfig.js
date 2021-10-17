@@ -4,7 +4,7 @@ const SocialConfig = {
     FACEBOOK_APP_ID: "570941927553078",
 
     //google 
-    GOOGLE_APP_ID: "421173343253-0m9l7aldoegd7dhdv793nbhth1c0mch0.apps.googleusercontent.com",//"earn5star-social-auth",
+    GOOGLE_APP_ID: "earn5star-social-auth",
 
     //amazon
     AMAZON_APP_ID: "amzn1.devportal.webapp.629dec25d9f345fcb33c4736250778e9",
