@@ -10,13 +10,13 @@ export class User extends Component {
     renderResponseData(profile){
         
         return(
-            <div class="card">
+            <div>
             {
                 Object.keys(profile).map((key, i) => {
                 return(
-                <div class="field" key = {i}>
-                    <div class="label">{key}</div>
-                    <div class="value"> {typeof(profile[key]) === 'object' ? JSON.stringify(profile[key]): profile[key] }</div>
+                <div className ="field" key = {i}>
+                    <div className ="label">{key}</div>
+                    <div className ="value"> {typeof(profile[key]) === 'object' ? JSON.stringify(profile[key]): profile[key] }</div>
                 </div>
                 )
                 })
@@ -31,8 +31,8 @@ export class User extends Component {
 
         return (
             <div className="card">
-                
-                <div class="avt">
+
+                <div className="avt">
                     <img 
                         alt="141" 
                         src={profile.picture.data.url}
@@ -43,14 +43,13 @@ export class User extends Component {
                     />
                 </div>
 
-                <h3 class="provider">{provider.toUpperCase()}</h3>
+                <h3 className = "provider">{provider.toUpperCase()}</h3>
 
-                <div class="content">
-                    <div class="data">
+                <div className = "content">
+                    <div className = "data">
                     {this.renderResponseData(profile)}
+                    <div><button className = "btnLogout">Logout</button></div>
                     </div>
-
-                    <div><button class="btnLogout">Logout</button></div>
                 </div>
                 
             </div>
