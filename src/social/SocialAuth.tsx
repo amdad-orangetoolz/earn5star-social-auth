@@ -111,8 +111,8 @@ const SocialAuth = () => {
           onLogoutSuccess = {onLogoutSuccess}
           onResolve = {({ provider, data }: IResolveParams) => {
             
-            console.log('provider'+ provider);
-            console.log(JSON.stringify(data));
+            // console.log('provider'+ provider);
+            // console.log(JSON.stringify(data));
 
             setProvider(provider)
             setProfile(data)
