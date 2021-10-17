@@ -15,10 +15,10 @@ export class User extends Component {
             {
                 Object.keys(profile).map((key, i) => {
                 return(
-                <p key={i}>
-                    <span>{key}</span>
-                    <span> {typeof(profile[key]) === 'object' ? JSON.stringify(profile[key]): profile[key] }</span>
-                </p>
+                <div class="field" key = {i}>
+                    <div class="label">{key}</div>
+                    <div class="value"> {typeof(profile[key]) === 'object' ? JSON.stringify(profile[key]): profile[key] }</div>
+                </div>
                 )
                 })
             }
