@@ -26,9 +26,21 @@ export class User extends Component {
         
     }
 
+    getUserProfile = (provider, profile)=>{
+        var scope = provider.toLowerCase();
+        if(scope == 'facebook'){
+            return profile.picture.data.url;
+        }else if(scope == 'google'){
+            return profile.avatar;
+        }else{
+            return 'https://res.cloudinary.com/demo/basketball_shot.jpg';
+        }
+    }
+
     render() {
         const { provider, profile } = this.props;
-        var profileUrl = provider.toLowerCase() == 'facebook' ? profile.picture.data.url : 'https://res.cloudinary.com/demo/basketball_shot.jpg';
+        var profileUrl = getUserProfile(provider, profile);
+        
         return (
             <div className="card">
 
