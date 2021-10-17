@@ -9,18 +9,18 @@ export class User extends Component {
 
     render(){
         const { provider, profile } = this.props;
-        console.log(JSON.stringify(profile))
+        
         return(
             <div class="card">
             {
-                Object.keys(profile).map((key, i) => (
-                
+                Object.keys(profile).map((key, i) => {
+                return(
                 <p key={i}>
                     <span>{key}</span>
-                    <span> {profile[key]}</span>
+                    <span> {typeof(profile[key]) === 'object' ? JSON.stringify(profile[key]): profile[key] }</span>
                 </p>
-                
-                ))
+                )
+                })
             }
             </div>
         )
