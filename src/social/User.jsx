@@ -8,13 +8,13 @@ export class User extends Component {
     }
 
     render(){
-       // const { provider, profile } = this.props;
-        const profile = {
-            "name": "Pluralsight",
-            "number": 1,
-            "address": "India",
-            "website": "https://www.pluralsight.com/"
-        }
+        const { provider, profile } = this.props;
+        // const profile = {
+        //     "name": "Pluralsight",
+        //     "number": 1,
+        //     "address": "India",
+        //     "website": "https://www.pluralsight.com/"
+        // }
         return(
             <div class="card">
             {
