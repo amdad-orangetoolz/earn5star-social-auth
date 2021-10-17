@@ -12,7 +12,7 @@ export class User extends Component {
             <div>
                 {
                 Object.keys(response).map((key, i) => {
-                    return(
+                    (
                         <div class="field" key={i}>
                             <div class="label">{key}</div>
                             <div class="value">{response[key]}</div>
