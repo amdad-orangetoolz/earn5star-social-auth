@@ -28,7 +28,7 @@ export class User extends Component {
 
     render() {
         const { provider, profile } = this.props;
-        var profileUrl = provider.lowerCase() == 'facebook' ? profile.picture.data.url : 'https://res.cloudinary.com/demo/basketball_shot.jpg';
+        var profileUrl = provider.toLowerCase() == 'facebook' ? profile.picture.data.url : 'https://res.cloudinary.com/demo/basketball_shot.jpg';
         return (
             <div className="card">
 
