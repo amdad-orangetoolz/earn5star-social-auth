@@ -26,7 +26,7 @@ const SocialConfig = {
 
     //pinterest
     PINTEREST_APP_ID : "1473268",
-    PINTEREST_APP_SECRET : "",
+    PINTEREST_APP_SECRET : "e273f47a295593afbe43f709d31b71690363380b",
 
     //twitter
     TWITTER_APP_ID : "",
