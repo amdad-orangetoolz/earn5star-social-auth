@@ -110,10 +110,6 @@ const SocialAuth = () => {
           onLoginStart = {onLoginStart}
           onLogoutSuccess = {onLogoutSuccess}
           onResolve = {({ provider, data }: IResolveParams) => {
-            
-            // console.log('provider'+ provider);
-            // console.log(JSON.stringify(data));
-
             setProvider(provider)
             setProfile(data)
 
@@ -132,8 +128,6 @@ const SocialAuth = () => {
           onLoginStart = {onLoginStart}
           onLogoutSuccess = {onLogoutSuccess}
           onResolve = {({ provider, data }: IResolveParams) => {
-            console.log('provider'+ provider);
-            console.log('data'+ data);
             setProvider(provider)
             setProfile(data)
           }}
