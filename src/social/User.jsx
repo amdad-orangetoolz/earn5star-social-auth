@@ -39,7 +39,7 @@ export class User extends Component {
 
     render() {
         const { provider, profile } = this.props;
-        var profileUrl = getUserProfile(provider, profile);
+        var profileUrl = this.getUserProfile(provider, profile);
         
         return (
             <div className="card">
