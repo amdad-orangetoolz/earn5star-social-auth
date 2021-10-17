@@ -7,7 +7,7 @@ export class User extends Component {
         super(props, context);
     }
 
-    renderResponseData = (profile) =>{
+    renderResponseData(profile){
         
         return(
             <div class="card">
@@ -45,8 +45,8 @@ export class User extends Component {
                 <div class="content">
                     <div class="data">
 
-                    <div>{this.renderRepsonseData(profile)}</div>
-                    
+                    <div>{this.renderResponseData(profile)}</div>
+
                         <div class="field">
                             <div class="label">accessToken: </div>
                             <div class="value">"EAAdpchms5TwBAEX6E6ZC7yBLy1QlAHF4s2KEvKECfLsTI60vo03kLqSsLdXsPlhjVWqN2IfKdP2NGJnoZBcC5KNY5jgWSjdBG7yX4bmBqUeBC9Ggcx5qbCyTc2ZByfwRkIKr2VNr8ID3nfyKcqyudgeYfCxK9ZB9rWztfTpev34hv6uG9ayKEtXON5maFAWUu5TZAk9JuT0UGsGZAEqbiRKmAVZCmfXCtoZD"</div>
