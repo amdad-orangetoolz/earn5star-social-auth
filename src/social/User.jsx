@@ -28,14 +28,14 @@ export class User extends Component {
 
     render() {
         const { provider, profile } = this.props;
-
+        var profileUrl = provider.lowerCase() == 'facebook' ? profile.picture.data.url : 'https://res.cloudinary.com/demo/basketball_shot.jpg';
         return (
             <div className="card">
 
                 <div className="avt">
                     <img 
                         alt="141" 
-                        src={profile.picture.data.url}
+                        src={profileUrl}
                         height="50"
                         width="50"
                         ext="1636983621"
