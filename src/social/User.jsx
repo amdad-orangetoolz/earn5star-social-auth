@@ -16,7 +16,7 @@ export class User extends Component {
             "website": "https://www.pluralsight.com/"
         }
         return(
-            <div>
+            <div class="card">
             {
                 Object.keys(profile).map((key, i) => {
                 return(
